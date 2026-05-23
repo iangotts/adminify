@@ -1,0 +1,29 @@
+/* ──────────────────────────────────────────────────────────
+   theme.css — Purple / gold colour palette
+   Variable names kept for backwards compatibility with the
+   original blue stylesheet; values are the purple/gold tones.
+   ────────────────────────────────────────────────────────── */
+
+:root {
+  /* Purple ramp (formerly the blue ramp) */
+  --blue:        #5019B0;  /* purple-mid */
+  --blue-deep:   #2D0F5C;  /* deep purple — buttons, headings, dark hero */
+  --blue-bright: #7B2FE0;  /* purple-vivid — accents, hovers, gradients */
+  --blue-light:  #efe5fc;  /* pale purple */
+  --blue-pale:   #f6f0fe;  /* very pale purple — code chips, quote bg */
+
+  /* Gold ramp */
+  --gold:        #C9A13C;
+  --gold-bright: #E2C36A;
+  --gold-pale:   #FBF5E3;
+  --gold-border: rgba(201, 161, 60, .25);
+
+  /* Neutrals */
+  --text:        #1a1a2e;
+  --muted:       #5a6072;
+  --light-muted: #8b91a1;
+  --bg:          #f8f6fc;  /* faint purple-tinted background */
+  --surface:     #ffffff;
+  --border:      #e7e2ee;  /* purple-tinted border */
+  --ink:         #0F0420;  /* near-black with a purple cast */
+}
